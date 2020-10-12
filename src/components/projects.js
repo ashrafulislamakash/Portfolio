@@ -66,7 +66,7 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is Angular</h1></div>
+        <div><h1>Graphic Desgin</h1></div>
       )
     } else if(this.state.activeTab === 2) {
       return (
