@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell className="resume-left-col" col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="akash.jpg"
+                src="ashraful.jpg"
                 alt="Ashraful Islam"
                 style={{ height: "200px" }}
               />

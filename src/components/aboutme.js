@@ -6,7 +6,7 @@ class About extends Component {
     return(
       <div>
          <img
-              src="akash.jpg"
+              src="ashraful.jpg"
               alt="Md Ashraful Islam"
               style={{height: '250px'}}
                />
