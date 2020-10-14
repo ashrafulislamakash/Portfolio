@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import { Container } from 'react-bootstrap';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 
 class Contact extends Component {
   render() {
     return(
+      <Container>
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
@@ -14,7 +16,10 @@ class Contact extends Component {
               alt="Md Ashraful Islam"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> I am a highly tended Experienced professional and cooperative Software Engineer. I am working in graphic and UI Design for more than 4 Years. I assure you of a wide range of Quality IT services. I am also Funded Damsonsoft, which provides All of the IT services.  I am an expert in Web, Mobile App Development, and UI design in the major filed. Moreover, I am a Learning person.  My overall skill makes me a complete software developer, So you can hire me for your Project./</p>
+             {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> I am a highly tended Experienced professional and cooperative Software Engineer. I am working in graphic and UI Design for more than 4 Years. I assure you of a wide range of Quality IT services. I am also Funded Damsonsoft, which provides All of the IT services.  I am an expert in Web, Mobile App Development, and UI design in the major filed. Moreover, I am a Learning person.  My overall skill makes me a complete software developer, So you can hire me for your Project./</p> */}
+             <p> I am a highly tended Experienced professional and cooperative Software Engineer. I am working in graphic and UI Design for more than 4 Years. I assure you of a wide range of Quality IT services. I am also Funded Damsonsoft, which provides All of the IT services.  I am an expert in Web, Mobile App Development, and UI design in the major filed. Moreover, I am a Learning person.  My overall skill makes me a complete software developer, So you can hire me for your Project./</p>
+         
+          
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
@@ -56,6 +61,8 @@ class Contact extends Component {
           </Cell>
         </Grid>
       </div>
+
+     </Container>
     )
   }
 }

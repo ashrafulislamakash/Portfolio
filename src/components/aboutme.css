@@ -1,0 +1,47 @@
+.bg{
+
+background-color: #161D26 !important;
+
+}
+
+.header_content{
+    
+text-align:center;
+padding: 20px;
+margin:auto;
+font-weight: 1000px;
+
+}
+
+.aboutme{
+ font-weight: bold;
+ font-size: 48px;
+ color: #0ABEAD; 
+}
+
+.why{
+    font-size: 16px;
+    color: #0ABEAD; 
+   }
+
+   .content{
+       padding: 10px;
+       margin-top: 50px;
+       background-color: #1F2935;
+       color: white;
+       height: 648px;
+       width: 1170PX;
+   }
+
+   .button {
+    background-color: #09BEAD !important;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+  }
