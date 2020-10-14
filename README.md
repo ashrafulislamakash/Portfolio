@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> a669ac64e75a824a561ec6817faa14b98f50e9f2
 # React-portfolio
 A React based personal portfolio app using create-react-app and React Router v4.
 
