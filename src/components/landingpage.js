@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import './landingpage.css';
+import {FaFacebookSquare, FaLinkedin, FaGithubSquare, FaYoutube} from "react-icons/fa";
 
 class Landing extends Component {
   render() {
@@ -25,22 +26,26 @@ class Landing extends Component {
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/ashraful-islam-akash/" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <FaLinkedin/>
+          </a>
+
+           {/* Facebook */}
+           <a href="https://www.facebook.com/ashrafulislam.akash.1232/" rel="noopener noreferrer" target="_blank" >
+             <FaFacebookSquare/>
+            
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+          <a href="https://github.com/ashrafulislamakash" rel="noopener noreferrer" target="_blank">
+            <FaGithubSquare></FaGithubSquare>
+           
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
+        
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          <a href="https://www.youtube.com/c/TechMasterBengali/videos?view_as=subscriber" rel="noopener noreferrer" target="_blank">
+            <FaYoutube></FaYoutube>
           </a>
 
         </div>

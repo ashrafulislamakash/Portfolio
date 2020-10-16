@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import React, { Component} from "react";
 import "./aboutme.css";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Button,Container, Row, Col } from "react-bootstrap";
 
 class About extends Component {
   render() {
     return (
-      <Container>
+    
+      <div className ="bg" >
+      <Container >
         <Row>
           <div className="header_content">
             <h1 className="aboutme"> About Me </h1>
@@ -16,11 +18,12 @@ class About extends Component {
 
         <div className="content">
           <Row>
-            <Col>
+            <Col sm={6} md={6} lg={6} xl={6}> 
+          
               <img src="about.png"></img>
             </Col>
 
-            <Col>
+            <Col sm={6} md={6} lg={6} xl={6}>
               <h1> Why Choose me ?</h1>
               <p>
                 {" "}
@@ -46,11 +49,19 @@ class About extends Component {
                 <li>Interaction Design </li>
                 <li>Supper Support </li>
               </div>
-              <Button className="button"> Hare me </Button>
+              <Button  variant="outlined" className ="button-hare" style={{margin:'40px', height: '60px', width : '200px', fontSize:'20px'}}> Hire Me </Button>
+              <Button  className ="button-re"  style={{ margin:'40px', height: '60px', width : '200px', fontSize:'20px',  mozBoxShadow: "1px 3px 1px #9E9E9E"}}> Hire Me </Button>
             </Col>
           </Row>
         </div>
+
+        <div>
+
+
+
+        </div>
       </Container>
+      </div>
     );
   }
 }
