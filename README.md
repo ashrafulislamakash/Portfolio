@@ -12,3 +12,5 @@ Clone repo, install, cd into folder and run:
 npm install
 npm start
 ```
+## Preview
+![Portfolio website using React js](https://user-images.githubusercontent.com/71764995/107844291-5890c180-6dfc-11eb-9f90-ecb6765cfc6b.gif)
