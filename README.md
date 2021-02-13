@@ -1,6 +1,5 @@
-# React-portfolio
-A React based personal portfolio app using create-react-app and React Router.
 
+A React based personal portfolio app using create-react-app and React Router.
 # Start App
 Clone repo, install, cd into folder and run:
 ```git
